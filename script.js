@@ -10,19 +10,19 @@ let armor = 0;
 let weaponCost = 30;
 
 const locationImages = {
-  'Town Square': './game pictures/Town-square.jpg', 
-  'store': './game pictures/store sence.jpg', 
-  'cave': './game pictures/cave sence.jpg', 
-  'Goblin': './game pictures/Goblin-fight.jpg',
-  'Beetle': './game pictures/beetle-fight.jpg',
-  'King Dragon': './game pictures/Dragon-fight.jpg',
-  'lose': './game pictures/game over.jpg',
-  'intro': './game pictures/intro.jpg',
-  'win': './game pictures/win game.jpg',
-  'win game': './game pictures/victory.jpg',
-  'Snake': './game pictures/snake.jpg',
-  'Dragon minions': './game pictures/dragon-min.jpg',
-  'Skeleton Guard': './game pictures/Skeleton-guard.jpg'
+  'Town Square': './Town-square.jpg', 
+  'store': './store sence.jpg', 
+  'cave': './cave sence.jpg', 
+  'Goblin': './Goblin-fight.jpg',
+  'Beetle': './beetle-fight.jpg',
+  'King Dragon': './Dragon-fight.jpg',
+  'lose': './game over.jpg',
+  'intro': './intro.jpg',
+  'win': './win game.jpg',
+  'win game': './victory.jpg',
+  'Snake': './snake.jpg',
+  'Dragon minions': './dragon-min.jpg',
+  'Skeleton Guard': './Skeleton-guard.jpg'
 };
 const disScreenImg = document.querySelector('.dis-screen');
 const button1 = document.querySelector('#button1');
