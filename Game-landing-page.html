@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="website icon" type="jpg" href="./game pictures/intro.jpg">
+    <title>RPG - Dragon Slayer</title>
+    </head>
+    <body>
+      <div class="container">
+        <div id="game">
+          <div class="dis-div">
+              <img src="./game pictures/Town-square.jpg" class="dis-screen">
+          </div>
+          <div id="stats">
+            <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+            <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+            <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+            <span class="stat">Armor: <strong><span id="armorText">0</span></strong></span>
+          </div>
+          <div id="controls">
+            <button id="button1" onclick="playSound()">Go to store</button>
+            <button id="button2">Go to cave</button>
+            <button id="button3">Fight dragon</button>
+            <button id="button4"></button>
+            <button id="button5"></button>
+            <button id="button6"></button>
+          </div> 
+          <div id="monsterStats">
+            <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+            <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+          </div>
+          <div id="text">
+             <strong>PLEASE NOTE: that this game is still an work in progress </strong>Welcome to Dragon Slayer. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+          </div>
+        </div>
+        <audio id="myAudio">
+          <source src="./game sound effects/sword-sound.mp3" type="audio/mpeg">
+        </audio>
+        <script src="./script.js"></script>
+      </div>
+    </body>
+</html>
